@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, black, rgb(60, 58, 58), gray);
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    transition: font-size 0.3s ease, margin 0.3s ease;
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f5a623;
+}
+
+/* Style sections */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style portfolio projects */
+.project {
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Additional styles for content boxes */
+.content-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-box h1,
+.content-box h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content-box p {
+    text-align: justify;
+}
+
+/* Add transitions to the about class */
+.about {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.about:hover {
+    color: #f5a623;
+}
